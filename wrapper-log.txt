@@ -1,0 +1,54 @@
+Initialized native services in: /data/data/com.termux/files/home/.gradle/native
+Initialized jansi services in: /data/data/com.termux/files/home/.gradle/native
+The client will now receive all logging from the daemon (pid: 31528). The daemon log file: /data/data/com.termux/files/home/.gradle/daemon/9.7.0/daemon-31528.out.log
+Warning: Unable to set daemon's environment variables to match the client because: 
+  There is no native integration with this operating environment.
+  If the daemon was started with a significantly different environment from the client, and your build 
+  relies on environment variables, you may experience unexpected behavior.
+Starting 2nd build in daemon [uptime: 2 mins 48.193 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=false, configurationCacheDisabledReason=null, configurationCacheParallelLoad=false, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, isolatedProjectsDiagnostics=false, isolatedProjectsDangerouslyIgnoreProblems=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=false, vintage=true}
+Watching the file system is configured to be enabled if available
+File system watching is inactive
+Starting Build
+Settings evaluated using settings file '/data/data/com.termux/files/home/lavaz_prompt_palace/settings.gradle.kts'.
+Projects loaded. Root project using build file '/data/data/com.termux/files/home/lavaz_prompt_palace/build.gradle.kts'.
+Included projects: [root project 'LavazPromptPalace', project ':app']
+
+> Configure project :
+Evaluating root project 'LavazPromptPalace' using build file '/data/data/com.termux/files/home/lavaz_prompt_palace/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.5.0', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.0', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '2.0.0', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file '/data/data/com.termux/files/home/lavaz_prompt_palace/app/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.5.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '2.0.0']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+
+[Incubating] Problems report is available at: file:///data/data/com.termux/files/home/lavaz_prompt_palace/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> Starting in Kotlin 2.0, the Compose Compiler Gradle plugin is required
+  when compose is enabled. See the following link for more information:
+  https://d.android.com/r/studio-ui/compose-compiler
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.7.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 1s
