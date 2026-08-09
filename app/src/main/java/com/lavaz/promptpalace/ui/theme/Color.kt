@@ -1,7 +1,5 @@
 package com.lavaz.promptpalace.ui.theme
-
 import androidx.compose.ui.graphics.Color
-
 val LavaPrimary = Color(0xFFE64A19)
 val GlowingOrange = Color(0xFFFF6D00)
 val AccentBlue = Color(0xFF4A90E2)

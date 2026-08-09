@@ -1,29 +1,5 @@
 [
-  {
-    "id": 1,
-    "title": "Write a Blog Post",
-    "category": "Writing",
-    "content": "Write a comprehensive blog post about {{topic}}. Include an introduction, 3-5 main points, and a conclusion.",
-    "tags": "blog, writing",
-    "usageCount": 0,
-    "isFavorite": false
-  },
-  {
-    "id": 2,
-    "title": "Code Review Assistant",
-    "category": "Coding",
-    "content": "Review this code for bugs and best practices: {{code}}",
-    "tags": "code, review",
-    "usageCount": 0,
-    "isFavorite": false
-  },
-  {
-    "id": 3,
-    "title": "Marketing Copy",
-    "category": "Marketing",
-    "content": "Generate compelling marketing copy for {{product}}",
-    "tags": "marketing",
-    "usageCount": 0,
-    "isFavorite": false
-  }
+  {"id":1,"title":"Write a Blog Post","category":"Writing","content":"Write a comprehensive blog post about {{topic}}.","tags":["blog","writing"],"usageCount":0,"isFavorite":false},
+  {"id":2,"title":"Code Review Assistant","category":"Coding","content":"Review this code for bugs and best practices: {{code}}.","tags":["code","review"],"usageCount":0,"isFavorite":false},
+  {"id":3,"title":"Marketing Copy Generator","category":"Marketing","content":"Generate compelling marketing copy for {{product}}.","tags":["marketing"],"usageCount":0,"isFavorite":false}
 ]

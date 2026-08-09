@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="lavaz_primary">#E64A19</color>
-    <color name="lavaz_primary_variant">#C53E12</color>
     <color name="lavaz_secondary">#FF6D00</color>
     <color name="lavaz_accent">#4A90E2</color>
 </resources>
